@@ -1,12 +1,12 @@
 framework: mocha
 postMerge:
   pattern:
-    - "./test/**/*.js"
+    - "./test/*.js"
   env:
     CI: true
 preMerge:
   pattern:
-    - "./test/**/*.js"
+    - "./test/*.js"
   env:
     CI: true
 preRun:
