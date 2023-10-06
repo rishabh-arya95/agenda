@@ -1,12 +1,29 @@
 # Next
 
-- _Contributions welcome!_ https://github.com/agenda/agenda/pulls
+_Contributions welcome!_ https://github.com/agenda/agenda/pulls
 
-- # 4.2.0 / 2021-08-09
+  # [5.0.0](https://github.com/agenda/agenda/releases/tag/v5.0.0) / 2022-11-07
+
+## BREAKING
+
+- MongoDB 3.4 and 3.6 are not supported anymore. Only MongoDB v4.0 and above are supported.
+
+Otherwise, all the changes are minor: https://github.com/agenda/agenda/releases/tag/v5.0.0
+
+  # [4.4.0](https://github.com/agenda/agenda/releases/tag/v4.4.0) / 2022-10-19
+
+- Feat: Add `drain()` method for graceful process shutdowns ([#1488](https://github.com/agenda/agenda/pull/1488)) thanks @nmehmedrnd
+
+  # [4.3.0](https://github.com/agenda/agenda/releases/tag/v4.3.0) / 2022-05-10
+
+- Feat: `disableAutoIndex`
+- Feat: `shouldSaveResult`
+
+  # 4.2.1 / 2021-08-09
 
 - fix: deprecation warning for collection.findOneAndUpdate ([#1338](https://github.com/agenda/agenda/pull/1338)) thanks @frobinsonj
 
-- # 4.2.0 / 2021-08-05
+  # 4.2.0 / 2021-08-05
 
 - Feat: Add top level disable and enable ([#1109](https://github.com/agenda/agenda/pull/1109)) thanks @pdfowler
 - fix(history): match cron-parser pattern ([#1335](https://github.com/agenda/agenda/pull/1335)) thanks @dockleryxk
